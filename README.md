@@ -1,38 +1,26 @@
 # interview_test_project
 
-*First of all, it's awesome that you are reading this introduction since that means, that you had your first successful
-interview. From now on, we need to check your current Flutter progress, your knowledge and how you solve problems. We
-also want to check out some of your code.*
+*First of all, it's awesome that you are reading this introduction because that means, that you had your first successful
+interview. As a next step, we need will check your Flutter skills, your knowledge and how you solve problems.*
 
-___
+
 
 ## Introduction
 
-The next step of the interview is a small project. You can create a public repository in [GitHub](https://github.com/)
-or [GitLab](https://gitlab.com/) by yourself.
+In this project you will find designs from our app [Storyways](https://storyways.app), you can fork this repository, or create a new public repository on [GitHub](https://github.com/) or [GitLab](https://gitlab.com/) where you implement the screens shown in the designs.
 
-___
 
 ## Task
 
-You need to create a small project with one screen and a search overlay.
-
-You can simply mock a list of books. You should use the following api to provide some book covers.
-
-API: `picsum.photos/`
+The design shows a list of books with a searchbar at the top. When you start searching the overlay expands and shows the results. The data is mocked for now and you can use [picsum](https://picsum.photos/) for finding example photos for book covers.
 
 
-___
 
-## Design
+## Design & Resources
 
 ![](assets/01_04_01_Storyways_List.png)
-
 ![](assets/01_04_02_Storyways_Search.png)
-
-For all details like the font-size, the colors or any needed assets you need to check out the Figma link by yourself.
-
-You can find the full design [here](https://www.figma.com/file/aRxa2vnAQgkenyjo5fwm9e/Untitled?node-id=0%3A1).
+Font-sizes, colors and assets can be found [here](https://www.figma.com/file/aRxa2vnAQgkenyjo5fwm9e/Untitled?node-id=0%3A1).
 
 ___
 
