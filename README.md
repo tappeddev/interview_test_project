@@ -6,13 +6,14 @@
 ## Introduction
 
 In this project, you will find designs from our app [Storyways](https://storyways.app). You can fork this repository, or create a new public repository on [GitHub](https://github.com/) or [GitLab](https://gitlab.com/) where you implement the screens shown in the designs.
-
+To ensure that there is a strong linter, you should use the strong linter [tapped_lints](https://github.com/tappeddev/tapped_lints) that is available on GitHub. The readme of tapped_lints describes how to use the package.  
 
 ## Task
 
 The design shows a list of books with a search bar at the top. When you start searching the overlay expands and shows the results. The data is mocked for now and you can use [picsum](https://picsum.photos/) for finding example photos for book covers.
 
 Following features should be included:
+- [ ] [tapped_lints](https://github.com/tappeddev/tapped_lints) is included 
 - [ ] "Continue" and "New" sections are in one list that is scrollable vertically
 - [ ] "Continue" section can scroll horizontally
 - [ ] The `ListView` should build items lazy
