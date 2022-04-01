@@ -29,7 +29,7 @@ Following features should be included:
 
 ## Design & Resources
 
-⚠️ Keep in head that you only download the icons from Figma as svg and not the whole items with border radius or other elements like the bottom navigation bar.
+⚠️ Keep in mind that you only download the icons from Figma as svg and not the whole items with border radius or other elements like the bottom navigation bar.
 
 ![](assets/01_04_01_Storyways_List.png)
 ![](assets/01_04_02_Storyways_Search.png)
