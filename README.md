@@ -15,17 +15,21 @@ The design shows a list of books with a search bar at the top. When you start se
 Following features should be included:
 - [ ] Setup and use [FVM](https://fvm.app/)
 - [ ] [tapped_lints](https://github.com/tappeddev/tapped_lints) is included 
+- [ ] Create a list with a few book items that can be used for the different sections and the search
 - [ ] "Continue" and "New" sections are in one list that is scrollable vertically
 - [ ] "Continue" section can scroll horizontally
-- [ ] The `ListView` should build items lazy
+- [ ] The `ListView` should build items lazy by using `ListView.builder`
 - [ ] Items should have touch feedback, but no navigation
 - [ ] When the search results appear, the overlay expands and reveals the items
 - [ ] When the user taps outside of the overlay, the overlay closes
 - [ ] When the user clears the text, the overlay closes as well
 - [ ] Bottom navigation bar does nothing on tap (only visuals)
+- [ ] Light & Dark theme is possible and switch automatically when changing the device theme
 
 
 ## Design & Resources
+
+⚠️ Keep in mind that you only download the icons from Figma as svg and not the whole items with border radius or other elements like the bottom navigation bar.
 
 ![](assets/01_04_01_Storyways_List.png)
 ![](assets/01_04_02_Storyways_Search.png)
