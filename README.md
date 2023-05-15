@@ -10,7 +10,10 @@ To ensure that there is a strong linter, you should use the strong linter [tappe
 
 ## Task
 
-The design shows a list of books with a search bar at the top. When you start searching the overlay expands and shows the results. The data is mocked for now and you can use [picsum](https://picsum.photos/) for finding example photos for book covers.
+The design shows a list of books with a search bar at the top. When you start searching the overlay expands and shows the results. The list of the "continue" and the "New" section are mocked for now on. 
+Covers need to be fetched by [picsum](https://picsum.photos/) for finding example photos for book covers.
+The search is currently implemented by [university-domains-list](https://github.com/Hipo/university-domains-list) for searching "Book names". 
+⚠️ We are working on a Google could function that could handle the search in the future. 
 
 Following features should be included:
 - [ ] Setup and use [FVM](https://fvm.app/)
@@ -22,6 +25,8 @@ Following features should be included:
 - [ ] Items should have touch feedback, but no navigation
 - [ ] When the search results appear, the overlay expands and reveals the items
 - [ ] When the user taps outside of the overlay, the overlay closes
+- [ ] The search should start automatically after 350 milliseconds, whenever the user stops adding new characters into the text field. 
+- [ ] Whenever the search doesn't contain any result an empty state info will be displayed
 - [ ] When the user clears the text, the overlay closes as well
 - [ ] Bottom navigation bar does nothing on tap (only visuals)
 - [ ] Light & Dark theme is possible and switch automatically when changing the device theme
