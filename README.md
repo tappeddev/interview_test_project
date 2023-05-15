@@ -13,7 +13,7 @@ To ensure that there is a strong linter, you should use the strong linter [tappe
 The design shows a list of books with a search bar at the top. When you start searching the overlay expands and shows the results. The list of the "continue" and the "New" section are mocked for now on. 
 Covers need to be fetched by [picsum](https://picsum.photos/) for finding example photos for book covers.
 The search is currently implemented by [university-domains-list](https://github.com/Hipo/university-domains-list) for searching "Book names". 
-⚠️ We are working on a Google could function that could handle the search the future. 
+⚠️ We are working on a Google could function that could handle the search in the future. 
 
 Following features should be included:
 - [ ] Setup and use [FVM](https://fvm.app/)
